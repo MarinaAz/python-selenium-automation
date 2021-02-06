@@ -1,0 +1,28 @@
+amazon logo
+By.XPATH $x("//i[@class='a-icon a-icon-logo']")
+
+continue button
+By.ID 'continue'
+By.XPATH $x("//input[@id='continue']")
+
+need help link
+By.XPATH  $x("//span[@class='a-expander-prompt']")
+
+forgot your password link
+By.ID  'auth-fpp-link-bottom'
+By.XPATH  $x("//a[@id='auth-fpp-link-bottom']")
+
+other issues with sigh-in link
+By.ID  'ap-other-signin-issues-link'
+By.XPATH  $x("//a[@id='ap-other-signin-issues-link']")
+
+create your Amazon account button
+By.ID  'createAccountSubmit'
+By.XPATH  $x("//a[@id='createAccountSubmit']")
+
+condition for use link
+By.XPATH  $x("//a[@class='a-link-normal']")
+
+privacy notice link
+By.XPATH  $x("//a[@class='a-link-normal']")
+
