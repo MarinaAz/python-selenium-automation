@@ -21,8 +21,9 @@ By.ID  'createAccountSubmit'
 By.XPATH  $x("//a[@id='createAccountSubmit']")
 
 condition for use link
-By.XPATH  $x("//a[@class='a-link-normal']")
+By.XPATH  $x("//a[contains(@href, 'ap_desktop_footer_cou')]")
 
 privacy notice link
-By.XPATH  $x("//a[@class='a-link-normal']")
+By.XPATH  $x("//a[contains(@href, 'ap_desktop_footer_privacy_notice')]")
+
 
