@@ -1,0 +1,37 @@
+Amazon logo
+by XPATH  $x("//i[@class='a-icon a-icon-logo']")
+
+Create account
+By XPATH  $x("//h1[@class='a-spacing-small']")
+
+Your name field
+By ID  'ap_customer_name'
+
+Your email field
+By CSS  $$('input#ap_email')
+
+Password field
+By CSS  $$('input#ap_password')
+
+Password must be at least 6 characters field
+By XPATH  $x("//div[@class='a-box-inner a-alert-container']") # I'm  not sure
+
+Re-enter password field
+By CSS SELECTOR  $$('#ap_password_check')
+
+Create your Amazon account field
+By CSS SELECTOR  $$('#continue')
+
+Conditions of Use link
+By XPATH  $$("a[href*='notification_condition_of_use?ie=UTF8&nodeId=508088']")
+
+
+Privacy Notice link
+By XPATH  $x("//a[@href='/gp/help/customer/display.html/ref=ap_register_notification_privacy_notice?ie=UTF8&nodeId=468496']")
+
+Sign-in link
+By CSS SELECTOR  $$("a[href*='ap/signin?openid.pape.']")
+
+
+
+
