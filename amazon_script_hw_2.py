@@ -14,7 +14,7 @@ search_field.send_keys('Cancel Order', Keys.ENTER)
 actual_text = driver.find_element(By.XPATH, "//b['cancel order']").text
 expected_text = '"Cancel Order"'
 
-assert '"Cancel Order"' == actual_text, f'Expected {expected_text}, but got {actual_text}'
+assert 'Cancel Order' == actual_text, f'Expected {expected_text}, but got {actual_text}'
 
 driver.quit()
 
